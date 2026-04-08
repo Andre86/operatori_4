@@ -10,3 +10,5 @@ console.log(rimasti);
 
 let mancanti = file - rimasti;
 console.log(mancanti);
+
+console.log(`ci sono ${file} file di gatti e ne mancano ${mancanti} per una nuova fila con un avanzo di ${rimasti}`);
